@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mutual_Fund"
+    android:orientation="vertical"
+    android:background="@color/background">
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/main_toolbar2" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MFbasic"
+        android:layout_marginLeft="16dp"
+        android:textSize="28sp"
+        android:textColor="#000"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:id="@+id/Basic_RecyclerView"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MFadvanced"
+        android:textSize="28sp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:id="@+id/Advanced_RecyclerView"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"/>
+
+</LinearLayout>

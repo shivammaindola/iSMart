@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">iSmart</string>
+    <string name="mutual_fund" />
+    <string name="share_market" />
+    <string name="cryptocurrency" />
+    <string name="real_estate" />
+    <string-array name="Language">
+        <item>English</item>
+        <item>Hindi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "134619658288",
+    "firebase_url": "https://ismart-f1b0a.firebaseio.com",
+    "project_id": "ismart-f1b0a",
+    "storage_bucket": "ismart-f1b0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134619658288:android:8428efe01f8be45a",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.ismart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134619658288-af9hn011kok6p22bfefl55ttrrlhbd78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.ismart",
+            "certificate_hash": "1f1954d4d988fc159a46bcac963308b61ba0023c"
+          }
+        },
+        {
+          "client_id": "134619658288-2rtaujrgmpfrph10mvqsn4278bliq7pe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFPS3eGxywFC0c2go0S2cP4pG6DUyXxgg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134619658288-2rtaujrgmpfrph10mvqsn4278bliq7pe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
