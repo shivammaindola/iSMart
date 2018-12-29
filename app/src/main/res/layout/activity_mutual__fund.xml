@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Mutual_Fund"
     android:orientation="vertical"
-    android:background="@color/background">
+    android:background="@drawable/b2">
     <include
         layout="@layout/toolbar"
         android:id="@+id/main_toolbar2" />
@@ -16,30 +16,49 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/MFbasic"
-        android:layout_marginLeft="16dp"
-        android:textSize="28sp"
-        android:textColor="#000"/>
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="10dp"
+        android:textSize="23sp"
+        android:textColor="#fff"/>
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="210dp"
+        android:layout_height="205dp"
         android:id="@+id/Basic_RecyclerView"
-        android:layout_margin="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:orientation="horizontal"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/MFadvanced"
-        android:textSize="28sp"
-        android:layout_marginLeft="16dp"
-        android:textColor="#000"/>
+        android:textSize="23sp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"/>
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="210dp"
+        android:layout_height="205dp"
         android:id="@+id/Advanced_RecyclerView"
-        android:layout_margin="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:orientation="horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MFQuote"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textAlignment="center"
+        android:textColor="#fff"/>
+
+
+
 
 </LinearLayout>

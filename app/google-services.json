@@ -8,18 +8,26 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:134619658288:android:8428efe01f8be45a",
+        "mobilesdk_app_id": "1:134619658288:android:4f786c016b25b3cb",
         "android_client_info": {
-          "package_name": "com.example.lenovo.ismart"
+          "package_name": "com.ismartapp.lenovo.ismart"
         }
       },
       "oauth_client": [
         {
-          "client_id": "134619658288-af9hn011kok6p22bfefl55ttrrlhbd78.apps.googleusercontent.com",
+          "client_id": "134619658288-jre6fst364o0lg0fn64l8b6e4vfcgo33.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.lenovo.ismart",
+            "package_name": "com.ismartapp.lenovo.ismart",
             "certificate_hash": "1f1954d4d988fc159a46bcac963308b61ba0023c"
+          }
+        },
+        {
+          "client_id": "134619658288-9tjp0684lht46g4b734pfe1n9pjaknah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ismartapp.lenovo.ismart",
+            "certificate_hash": "59f2324911440d72c1b2c5f0a21cccc8596abffd"
           }
         },
         {
@@ -48,7 +56,8 @@
         "ads_service": {
           "status": 2
         }
-      }
+      },
+      "admob_app_id": "ca-app-pub-7849828469665910~2453233137"
     }
   ],
   "configuration_version": "1"

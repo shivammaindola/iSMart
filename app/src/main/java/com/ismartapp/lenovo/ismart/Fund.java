@@ -1,15 +1,17 @@
-package com.example.lenovo.ismart;
+package com.ismartapp.lenovo.ismart;
 
 public class Fund {
     private String Title;
     private String Image;
+    private String sections;
 
     public Fund() {
     }
 
-    public Fund(String title, String image) {
+    public Fund(String title, String image, String sections) {
         Title = title;
         Image = image;
+        this.sections = sections;
     }
 
     public String getTitle() {
@@ -26,5 +28,13 @@ public class Fund {
 
     public void setImage(String image) {
         Image = image;
+    }
+
+    public String getSections() {
+        return sections;
+    }
+
+    public void setSections(String sections) {
+        this.sections = sections;
     }
 }

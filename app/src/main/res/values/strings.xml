@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">iSmart</string>
+    <string name="app_name">iSMart</string>
     <string name="mutual_fund" />
     <string name="share_market" />
     <string name="cryptocurrency" />
@@ -8,4 +8,38 @@
         <item>English</item>
         <item>Hindi</item>
     </string-array>
+
+    //intro app
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Let\'\s get started</string>
+
+    <string name="slide_1_title">HOLA! Investor</string>
+    <string name="slide_1_desc">Welcome to iSMart, Ready to learn something new?</string>
+
+    <string name="slide_2_title">Low Risk, Low Return Investment</string>
+    <string name="slide_2_desc">You know, every second individual in US owns a mutual fund unit and in India, only 4 out of 100 people buy units of mutual funds.</string>
+
+    <string name="slide_3_title">Moderate Risk, Moderate Return</string>
+    <string name="slide_3_desc">If you had invested Rs 10,000 in Eicher Motors(the company that makes Enfield bikes), your investment will be worth Rs 1.5 crore now.</string>
+
+    <string name="slide_4_title">High Risk, High Return</string>
+    <string name="slide_4_desc">In 2010, 1 bitcoin= Rs 6 Now, 1 Bitcoin= Rs 5 lakh (OMG, Yes it\'\s true)</string>
+
+    <string name="slide_5_title">Fire up your cylinders…</string>
+    <string name="slide_5_desc">Get ready to lift off with iSMart</string>
+
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_navigation_drawer_main">Navigation_drawer_main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">884297038435352</string>
+    <string name="fb_login_protocol_scheme">fb884297038435352</string>
 </resources>

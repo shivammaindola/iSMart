@@ -1,4 +1,4 @@
-package com.example.lenovo.ismart;
+package com.ismartapp.lenovo.ismart;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

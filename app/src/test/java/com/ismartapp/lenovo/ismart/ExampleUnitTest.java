@@ -1,4 +1,4 @@
-package com.example.lenovo.ismart;
+package com.ismartapp.lenovo.ismart;
 
 import org.junit.Test;
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fund_list"
-    android:background="@color/background">
+    android:background="@drawable/b2">
 
     <include
         layout="@layout/toolbar"
@@ -14,10 +14,35 @@
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="370dp"
         android:id="@+id/list_RecyclerView"
         android:layout_marginTop="60dp"
         android:orientation="vertical"
         android:padding="6dp"/>
+
+    <TextView
+        android:id="@+id/list_quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:id="@+id/banner_container1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        />
+
+
 
 </RelativeLayout>

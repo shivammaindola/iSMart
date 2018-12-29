@@ -1,4 +1,4 @@
-package com.example.lenovo.ismart;
+package com.ismartapp.lenovo.ismart;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -11,28 +11,28 @@ import com.squareup.picasso.Picasso;
 
 import Interface.ItemClickListener;
 
-public class MF_Holder extends RecyclerView.ViewHolder implements View.OnClickListener {
+public class List_holder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
     View mview;
     private ItemClickListener itemClickListener;
 
 
-    public MF_Holder(View itemView) {
+    public List_holder(View itemView) {
         super(itemView);
         mview = itemView;
         itemView.setOnClickListener(this);
     }
 
-    public void setTitle(String title) {
-        TextView post_title = (TextView) mview.findViewById(R.id.post_title);
-        post_title.setText(title);
+    public void setName(String name) {
+        TextView list_title = (TextView) mview.findViewById(R.id.list_title);
+        list_title.setText(name);
+        }
 
+    public void setList_image(Context ctx, String image) {
+        ImageView list_image = (ImageView) mview.findViewById(R.id.list_image);
+        Picasso.with(ctx).load(image).resize(20,20).into(list_image);
     }
 
-    public void setImage(Context ctx, String image) {
-        ImageView post_image = (ImageView) mview.findViewById(R.id.post_image);
-        Picasso.with(ctx).load(image).into(post_image);
-    }
 
     public void setItemClickListener(ItemClickListener itemClickListener) {
         this.itemClickListener = itemClickListener;

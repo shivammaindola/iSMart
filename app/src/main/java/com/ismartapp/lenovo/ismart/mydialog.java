@@ -1,4 +1,4 @@
-package com.example.lenovo.ismart;
+package com.ismartapp.lenovo.ismart;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

@@ -1,4 +1,4 @@
-package com.example.lenovo.ismart;
+package com.ismartapp.lenovo.ismart;
 
 public class List {
     private String Name;
