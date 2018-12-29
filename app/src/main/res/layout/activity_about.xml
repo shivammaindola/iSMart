@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/about_toolbar5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is iSMart? "
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/about_heading" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="iSMart is a 3 in 1 next genertaion education, information cum investment mobile application. Our goal is to become your trusted partner in your financial journey by helping you learn about Share Market, Mutual Fund and Cryptocurrency. "
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:id="@+id/about_Text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How does iSMart help? "
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/about_second_heading" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It makes you aware about various investment products and help demystify share market, mutual funds and Crytocurrency like bitcoin."
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:id="@+id/about_second_Text" />
+    <LinearLayout
+        android:id="@+id/banner_container4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        />
+
+
+</LinearLayout>
